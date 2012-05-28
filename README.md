@@ -18,6 +18,7 @@ Assuming you have an existing PhoneGap/Cordova Android project:
 
 * [Download the plugin](https://github.com/tannerburson/cordova-intent-chooser-plugin/downloads)
 * Add dist/cordova-intent-chooser-plugin.jar to your projects libs/ directory
+* Reference the intent chooser jar in your project.
 * Add dist/cordova-intent-chooser-plugin.js to assets/www
 
 ### plugins.xml 
@@ -51,6 +52,10 @@ Parameters
       'package-names' : [ 'mail' ] // optional, does partial string matches, or complete package name matches
     }
 
+TODO
+=========
+
+* Add support for binary data types
 
 License
 ==============
